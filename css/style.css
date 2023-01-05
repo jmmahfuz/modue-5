@@ -26,6 +26,20 @@ section {
     background-position: bottom right, left;
 }
 
+.contact_btn {
+    height: 64px;
+    width: 160px;
+    background: #FFF8F3;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    margin: 30px;
+}
+
 .primary_text {
     color: #FD6E0A;
 }
