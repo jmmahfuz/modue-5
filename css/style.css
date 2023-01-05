@@ -38,7 +38,7 @@ section {
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
     align-items: center;
 }
 
@@ -175,30 +175,38 @@ main {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.resume_button{
+
+.resume_button {
     margin-top: 50px;
     text-align: center;
 }
+
 /* contact styles */
-.contact{
+.contact {
     display: flex;
     gap: 100px;
     background: #FFF8F3;
     padding: 130px 200px;
 }
-.contact .section_title{
+
+.contact .section_title {
     text-align: left;
 }
-.contact input[type="text"], input[type="email"], textarea{
-margin-bottom: 24px;
-border: 0;
-width: 100%;
-padding:18px 30px;
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
 }
-input{
+
+input {
     height: 64px;
 }
-.contact a{
+
+.contact a {
     text-decoration: none;
     margin: 10px;
 }
